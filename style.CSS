@@ -334,6 +334,7 @@ footer h3 {
 }
 
 .social-links {
+    color: var(--accent-blue);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -343,7 +344,7 @@ footer h3 {
 }
 
 .social-links li a {
-    color: #bbd4ff;
+    color: var(--accent-blue);
     text-decoration: none;
     font-size: 1.1rem;
     padding: 0.5rem 1rem;
@@ -354,14 +355,14 @@ footer h3 {
 }
 
 .social-links li a:hover {
-    color: white;
+    color: var(--accent-blue);
     background: rgba(255, 255, 255, 0.1);
     border-color: var(--accent-yellow);
     transform: translateY(-3px);
 }
 
 .copyright {
-    color: #94a3b8;
+    color: var(--accent-blue);
     font-size: 0.9rem;
     border-top: 1px solid #334155;
     padding-top: 1.5rem;
@@ -439,3 +440,4 @@ footer h3 {
         color: black;
     }
 }
+
